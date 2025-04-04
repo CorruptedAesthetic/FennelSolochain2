@@ -72,3 +72,5 @@ sp-storage = { version = "22.0.0", default-features = false }
 sp-transaction-pool = { version = "35.0.0", default-features = false }
 sp-version = { version = "38.0.0", default-features = false }
 substrate-wasm-builder = { version = "25.0.0", default-features = false }
+pallet-certificate = { path = "./pallets/fennel/certificate", default-features = false }
+sp-std = { version = "37.0.0", default-features = false }

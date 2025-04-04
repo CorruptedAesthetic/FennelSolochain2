@@ -162,3 +162,17 @@ impl pallet_template::Config for Runtime {
 	type RuntimeEvent = RuntimeEvent;
 	type WeightInfo = pallet_template::weights::SubstrateWeight<Runtime>;
 }
+
+pub mod certificate;
+pub use certificate::*;
+pub mod identity;
+pub use identity::*;
+pub mod trust;
+pub use trust::*;
+pub mod signal;
+pub use signal::*;
+pub mod keystore;
+pub use keystore::*;
+pub mod infostratus;
+pub use infostratus::*;
+

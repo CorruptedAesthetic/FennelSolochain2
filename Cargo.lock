@@ -6001,6 +6001,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "pallet-certificate"
+version = "0.1.0"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "pallet-balances",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
 name = "pallet-grandpa"
 version = "39.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6024,6 +6040,52 @@ dependencies = [
 ]
 
 [[package]]
+name = "pallet-identity"
+version = "0.1.0"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
+name = "pallet-infostratus"
+version = "0.1.0"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "pallet-balances",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
+name = "pallet-keystore"
+version = "0.1.0"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
 name = "pallet-session"
 version = "39.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6043,6 +6105,23 @@ dependencies = [
  "sp-staking",
  "sp-state-machine",
  "sp-trie",
+]
+
+[[package]]
+name = "pallet-signal"
+version = "0.1.0"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "log",
+ "pallet-balances",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -6140,6 +6219,21 @@ dependencies = [
  "sp-api",
  "sp-runtime",
  "sp-weights",
+]
+
+[[package]]
+name = "pallet-trust"
+version = "0.1.0"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -9642,12 +9736,18 @@ dependencies = [
  "frame-try-runtime",
  "pallet-aura",
  "pallet-balances",
+ "pallet-certificate",
  "pallet-grandpa",
+ "pallet-identity",
+ "pallet-infostratus",
+ "pallet-keystore",
+ "pallet-signal",
  "pallet-sudo",
  "pallet-template",
  "pallet-timestamp",
  "pallet-transaction-payment",
  "pallet-transaction-payment-rpc-runtime-api",
+ "pallet-trust",
  "parity-scale-codec",
  "scale-info",
  "serde_json",

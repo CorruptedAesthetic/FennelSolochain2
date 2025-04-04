@@ -24,6 +24,12 @@ pub use pallet_balances::Call as BalancesCall;
 pub use pallet_timestamp::Call as TimestampCall;
 #[cfg(any(feature = "std", test))]
 pub use sp_runtime::BuildStorage;
+pub use pallet_certificate;
+pub use pallet_identity;
+pub use pallet_infostratus;
+pub use pallet_keystore;
+pub use pallet_signal;
+pub use pallet_trust;
 
 pub mod genesis_config_presets;
 
@@ -223,4 +229,23 @@ mod runtime {
 	// Include the custom logic from the pallet-template in the runtime.
 	#[runtime::pallet_index(7)]
 	pub type Template = pallet_template;
+	
+        #[runtime::pallet_index(8)]
+        pub type Certificate = pallet_certificate;
+
+	#[runtime::pallet_index(9)]
+	pub type Identity = pallet_identity;
+
+	#[runtime::pallet_index(10)]
+	pub type Infostratus = pallet_infostratus;
+
+	#[runtime::pallet_index(11)]
+	pub type Keystore = pallet_keystore;
+
+	#[runtime::pallet_index(12)]
+	pub type Signal = pallet_signal;
+	
+	#[runtime::pallet_index(13)]
+	pub type Trust = pallet_trust;
 }
+

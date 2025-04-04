@@ -32,6 +32,12 @@ pallet-grandpa.workspace = true
 pallet-sudo.workspace = true
 pallet-timestamp.workspace = true
 pallet-transaction-payment.workspace = true
+pallet-certificate = { path = "../pallets/fennel/certificate", default-features = false }
+pallet-identity = { path = "../pallets/fennel/identity", default-features = false }
+pallet-infostratus = { path = "../pallets/fennel/infostratus", default-features = false }
+pallet-keystore = { path = "../pallets/fennel/keystore", default-features = false }
+pallet-signal = { path = "../pallets/fennel/signal", default-features = false }
+pallet-trust = { path = "../pallets/fennel/trust", default-features = false }
 sp-api.workspace = true
 sp-block-builder.workspace = true
 sp-consensus-aura = { features = ["serde"], workspace = true }
@@ -75,6 +81,12 @@ std = [
 	"pallet-timestamp/std",
 	"pallet-transaction-payment-rpc-runtime-api/std",
 	"pallet-transaction-payment/std",
+	"pallet-certificate/std",
+	"pallet-identity/std",
+	"pallet-infostratus/std",
+        "pallet-keystore/std",
+	"pallet-signal/std",
+	"pallet-trust/std",
 	"scale-info/std",
 	"serde_json/std",
 	"sp-api/std",
@@ -105,6 +117,12 @@ runtime-benchmarks = [
 	"pallet-template/runtime-benchmarks",
 	"pallet-timestamp/runtime-benchmarks",
 	"pallet-transaction-payment/runtime-benchmarks",
+	"pallet-certificate/runtime-benchmarks",
+	"pallet-identity/runtime-benchmarks",
+	"pallet-infostratus/runtime-benchmarks",
+        "pallet-keystore/runtime-benchmarks",
+	"pallet-signal/runtime-benchmarks",
+	"pallet-trust/runtime-benchmarks",
 	"sp-runtime/runtime-benchmarks",
 ]
 
@@ -120,6 +138,12 @@ try-runtime = [
 	"pallet-template/try-runtime",
 	"pallet-timestamp/try-runtime",
 	"pallet-transaction-payment/try-runtime",
+	"pallet-certificate/try-runtime",
+	"pallet-identity/try-runtime",
+	"pallet-infostratus/try-runtime",
+	"pallet-keystore/try-runtime",
+	"pallet-signal/try-runtime",
+	"pallet-trust/try-runtime",
 	"sp-runtime/try-runtime",
 ]
 
