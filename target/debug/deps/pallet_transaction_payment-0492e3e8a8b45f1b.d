@@ -1,8 +1,0 @@
-/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/libpallet_transaction_payment-0492e3e8a8b45f1b.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/payment.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/types.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/weights.rs
-
-/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/pallet_transaction_payment-0492e3e8a8b45f1b.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/payment.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/types.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/weights.rs
-
-/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/lib.rs:
-/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/payment.rs:
-/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/types.rs:
-/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-transaction-payment-39.0.0/src/weights.rs:

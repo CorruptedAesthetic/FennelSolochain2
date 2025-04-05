@@ -1,5 +1,0 @@
-cargo:rustc-env=SUBSTRATE_CLI_COMMIT_HASH=e4c83d4c891
-cargo:rustc-env=SUBSTRATE_CLI_IMPL_VERSION=0.1.0-e4c83d4c891
-cargo:rerun-if-changed=/home/neurosx/NEWsubstrateprojects/my-custom-solochain/.git/HEAD
-cargo:rerun-if-changed=/home/neurosx/NEWsubstrateprojects/my-custom-solochain/.git/refs/heads/master
-

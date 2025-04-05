@@ -1,3 +1,0 @@
-cargo:rustc-cfg=elf
-cargo:rustc-cfg=support_priority
-cargo:rustc-cfg=cxa_thread_at_exit

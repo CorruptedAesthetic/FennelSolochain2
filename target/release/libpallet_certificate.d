@@ -1,1 +1,0 @@
-/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/libpallet_certificate.rlib: /home/neurosx/NEWsubstrateprojects/my-custom-solochain/pallets/fennel/certificate/src/lib.rs /home/neurosx/NEWsubstrateprojects/my-custom-solochain/pallets/fennel/certificate/src/weights.rs

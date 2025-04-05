@@ -1,2 +1,0 @@
-cargo:rustc-cfg=build_opt_level="0"
-cargo:rustc-cfg=build_profile="debug"
