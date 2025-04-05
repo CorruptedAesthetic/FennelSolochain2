@@ -1,0 +1,1 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/libpallet_template.rlib: /home/neurosx/NEWsubstrateprojects/my-custom-solochain/pallets/template/src/lib.rs /home/neurosx/NEWsubstrateprojects/my-custom-solochain/pallets/template/src/weights.rs

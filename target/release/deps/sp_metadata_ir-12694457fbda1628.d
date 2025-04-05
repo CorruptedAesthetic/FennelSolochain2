@@ -1,0 +1,11 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/libsp_metadata_ir-12694457fbda1628.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/types.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/unstable.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v14.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v15.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/libsp_metadata_ir-12694457fbda1628.rlib: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/types.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/unstable.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v14.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v15.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/sp_metadata_ir-12694457fbda1628.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/types.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/unstable.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v14.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v15.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/types.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/unstable.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v14.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-metadata-ir-0.8.0/src/v15.rs:

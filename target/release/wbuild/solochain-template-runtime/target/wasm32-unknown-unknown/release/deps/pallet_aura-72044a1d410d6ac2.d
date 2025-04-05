@@ -1,0 +1,10 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/wbuild/solochain-template-runtime/target/wasm32-unknown-unknown/release/deps/libpallet_aura-72044a1d410d6ac2.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/migrations.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/mock.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/tests.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/wbuild/solochain-template-runtime/target/wasm32-unknown-unknown/release/deps/libpallet_aura-72044a1d410d6ac2.rlib: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/migrations.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/mock.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/tests.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/wbuild/solochain-template-runtime/target/wasm32-unknown-unknown/release/deps/pallet_aura-72044a1d410d6ac2.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/migrations.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/mock.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/tests.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/migrations.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/mock.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pallet-aura-38.0.0/src/tests.rs:

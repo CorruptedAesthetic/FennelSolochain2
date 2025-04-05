@@ -1,0 +1,11 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/libtinyvec-11ac766b04a30054.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/array.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/array/generated_impl.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/arrayvec.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/arrayvec_drain.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/slicevec.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/tinyvec.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/tinyvec-11ac766b04a30054.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/array.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/array/generated_impl.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/arrayvec.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/arrayvec_drain.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/slicevec.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/tinyvec.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/array.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/array/generated_impl.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/arrayvec.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/arrayvec_drain.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/slicevec.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.8.1/src/tinyvec.rs:

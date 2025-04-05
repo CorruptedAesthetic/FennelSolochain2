@@ -1,0 +1,8 @@
+
+CXX include path:
+  /home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/build/wasm-opt-sys-d6d8efe445423b00/out/cxxbridge/include
+  /home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/build/wasm-opt-sys-d6d8efe445423b00/out/cxxbridge/crate
+  /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-opt-sys-0.116.0/binaryen/src
+  /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-opt-sys-0.116.0/binaryen/src/tools
+  /home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/build/wasm-opt-sys-d6d8efe445423b00/out
+  /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-opt-sys-0.116.0/binaryen/third_party/llvm-project/include

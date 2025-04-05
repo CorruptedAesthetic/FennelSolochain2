@@ -1,0 +1,11 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/libbip39-13319ce94846dddf.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/internal_macros.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/mod.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/english.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/pbkdf2.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/libbip39-13319ce94846dddf.rlib: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/internal_macros.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/mod.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/english.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/pbkdf2.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/bip39-13319ce94846dddf.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/internal_macros.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/mod.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/english.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/pbkdf2.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/internal_macros.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/mod.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/language/english.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bip39-2.1.0/src/pbkdf2.rs:

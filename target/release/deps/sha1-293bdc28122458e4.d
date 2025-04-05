@@ -1,0 +1,11 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/libsha1-293bdc28122458e4.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/consts.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/soft.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/x86.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/libsha1-293bdc28122458e4.rlib: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/consts.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/soft.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/x86.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/deps/sha1-293bdc28122458e4.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/consts.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/soft.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/x86.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/consts.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/soft.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha-1-0.9.8/src/compress/x86.rs:

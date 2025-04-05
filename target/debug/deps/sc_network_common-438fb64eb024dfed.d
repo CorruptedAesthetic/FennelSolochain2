@@ -1,0 +1,10 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/libsc_network_common-438fb64eb024dfed.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/message.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/role.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/sync.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/sync/message.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/types.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/sc_network_common-438fb64eb024dfed.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/message.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/role.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/sync.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/sync/message.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/types.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/message.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/role.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/sync.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/sync/message.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sc-network-common-0.47.0/src/types.rs:

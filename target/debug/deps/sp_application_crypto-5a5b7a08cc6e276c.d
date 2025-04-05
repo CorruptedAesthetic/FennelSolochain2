@@ -1,0 +1,9 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/libsp_application_crypto-5a5b7a08cc6e276c.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/ecdsa.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/ed25519.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/sr25519.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/traits.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/sp_application_crypto-5a5b7a08cc6e276c.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/ecdsa.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/ed25519.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/sr25519.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/traits.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/ecdsa.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/ed25519.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/sr25519.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-application-crypto-39.0.0/src/traits.rs:

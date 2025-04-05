@@ -1,0 +1,10 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/wbuild/solochain-template-runtime/target/wasm32-unknown-unknown/release/deps/libgroup-c33094ee42afea37.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/cofactor.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/prime.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/wnaf.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/wbuild/solochain-template-runtime/target/wasm32-unknown-unknown/release/deps/libgroup-c33094ee42afea37.rlib: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/cofactor.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/prime.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/wnaf.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/wbuild/solochain-template-runtime/target/wasm32-unknown-unknown/release/deps/group-c33094ee42afea37.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/cofactor.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/prime.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/wnaf.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/cofactor.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/prime.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/group-0.13.0/src/wnaf.rs:

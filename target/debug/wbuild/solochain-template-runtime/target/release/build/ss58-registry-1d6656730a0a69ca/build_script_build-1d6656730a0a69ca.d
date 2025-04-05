@@ -1,0 +1,6 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/wbuild/solochain-template-runtime/target/release/build/ss58-registry-1d6656730a0a69ca/build_script_build-1d6656730a0a69ca: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ss58-registry-1.51.0/build.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ss58-registry-1.51.0/ss58-registry.json
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/wbuild/solochain-template-runtime/target/release/build/ss58-registry-1d6656730a0a69ca/build_script_build-1d6656730a0a69ca.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ss58-registry-1.51.0/build.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ss58-registry-1.51.0/ss58-registry.json
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ss58-registry-1.51.0/build.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ss58-registry-1.51.0/ss58-registry.json:

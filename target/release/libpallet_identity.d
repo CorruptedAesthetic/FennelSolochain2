@@ -1,0 +1,1 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/release/libpallet_identity.rlib: /home/neurosx/NEWsubstrateprojects/my-custom-solochain/pallets/fennel/identity/src/lib.rs /home/neurosx/NEWsubstrateprojects/my-custom-solochain/pallets/fennel/identity/src/weights.rs

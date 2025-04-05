@@ -1,0 +1,11 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/libed25519_dalek-32fa8d21d1ac46d4.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/constants.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/errors.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/signature.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/signing.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/verifying.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/hazmat.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/ed25519_dalek-32fa8d21d1ac46d4.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/constants.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/errors.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/signature.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/signing.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/verifying.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/hazmat.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/constants.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/errors.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/signature.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/signing.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/verifying.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-2.1.1/src/hazmat.rs:

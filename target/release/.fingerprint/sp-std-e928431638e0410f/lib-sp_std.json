@@ -1,0 +1,1 @@
+{"rustc":8750902384292223123,"features":"[\"std\"]","declared_features":"[\"default\", \"std\"]","target":2900591743046169384,"profile":7653394286053337746,"path":6409016603240301292,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/sp-std-e928431638e0410f/dep-lib-sp_std","checksum":false}}],"rustflags":[],"config":2069994364910194474,"compile_kind":0}

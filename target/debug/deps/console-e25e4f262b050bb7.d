@@ -1,0 +1,11 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/libconsole-e25e4f262b050bb7.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/common_term.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/kb.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/term.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/unix_term.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/utils.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/ansi.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/console-e25e4f262b050bb7.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/common_term.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/kb.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/term.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/unix_term.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/utils.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/ansi.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/common_term.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/kb.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/term.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/unix_term.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/utils.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/console-0.15.10/src/ansi.rs:

@@ -32,6 +32,7 @@ pallet-grandpa.workspace = true
 pallet-sudo.workspace = true
 pallet-timestamp.workspace = true
 pallet-transaction-payment.workspace = true
+getrandom = { version = "0.2", features = ["js"] }
 pallet-certificate = { path = "../pallets/fennel/certificate", default-features = false }
 pallet-identity = { path = "../pallets/fennel/identity", default-features = false }
 pallet-infostratus = { path = "../pallets/fennel/infostratus", default-features = false }

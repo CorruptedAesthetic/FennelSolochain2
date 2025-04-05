@@ -1,0 +1,12 @@
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/libtt_call-dfcdb4ed5e834935.rmeta: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/predicate.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/replace.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/mod.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/expr.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/path.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/ty.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/unexpected.rs
+
+/home/neurosx/NEWsubstrateprojects/my-custom-solochain/target/debug/deps/tt_call-dfcdb4ed5e834935.d: /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/lib.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/predicate.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/replace.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/mod.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/expr.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/path.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/ty.rs /home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/unexpected.rs
+
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/lib.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/predicate.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/replace.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/mod.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/expr.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/path.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/rust/ty.rs:
+/home/neurosx/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tt-call-1.0.9/src/unexpected.rs:
