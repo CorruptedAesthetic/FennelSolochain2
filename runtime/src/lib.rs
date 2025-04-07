@@ -30,6 +30,7 @@ pub use pallet_infostratus;
 pub use pallet_keystore;
 pub use pallet_signal;
 pub use pallet_trust;
+pub use pallet_session;
 
 pub mod genesis_config_presets;
 
@@ -37,30 +38,40 @@ pub mod genesis_config_presets;
 /// the specifics of the runtime. They can then be made to be agnostic over specific formats
 /// of data like extrinsics, allowing for them to continue syncing the network through upgrades
 /// to even the core data structures.
-pub mod opaque {
-	use super::*;
-	use sp_runtime::{
-		generic,
-		traits::{BlakeTwo256, Hash as HashT},
-	};
-
-	pub use sp_runtime::OpaqueExtrinsic as UncheckedExtrinsic;
-
-	/// Opaque block header type.
-	pub type Header = generic::Header<BlockNumber, BlakeTwo256>;
-	/// Opaque block type.
-	pub type Block = generic::Block<Header, UncheckedExtrinsic>;
-	/// Opaque block identifier type.
-	pub type BlockId = generic::BlockId<Block>;
-	/// Opaque block hash type.
-	pub type Hash = <BlakeTwo256 as HashT>::Output;
+impl_opaque_keys! {
+    pub struct SessionKeys {
+        pub aura: Aura,
+        pub grandpa: Grandpa,
+    }
 }
 
-impl_opaque_keys! {
-	pub struct SessionKeys {
-		pub aura: Aura,
-		pub grandpa: Grandpa,
-	}
+
+pub mod opaque {
+    use super::*;
+    use sp_runtime::{
+        generic,
+        traits::{BlakeTwo256, Hash as HashT},
+    };
+    pub use sp_runtime::OpaqueExtrinsic as UncheckedExtrinsic;
+    
+    /// Opaque block header type.
+    pub type Header = generic::Header<BlockNumber, BlakeTwo256>;
+    /// Opaque block type.
+    pub type Block = generic::Block<Header, UncheckedExtrinsic>;
+    /// Opaque block identifier type.
+    pub type BlockId = generic::BlockId<Block>;
+    /// Opaque block hash type.
+    pub type Hash = <BlakeTwo256 as HashT>::Output;
+    
+    pub use super::SessionKeys;
+    
+    pub struct ValidatorIdOf; 
+    
+    impl<T> sp_runtime::traits::Convert<T, Option<T>> for ValidatorIdOf {
+        fn convert(a: T) -> Option<T> {
+            Some(a)
+        }
+    }
 }
 
 // To learn more about runtime versioning, see:
@@ -247,5 +258,8 @@ mod runtime {
 	
 	#[runtime::pallet_index(13)]
 	pub type Trust = pallet_trust;
+	
+	#[runtime::pallet_index(14)]  
+	pub type Session = pallet_session;
 }
 

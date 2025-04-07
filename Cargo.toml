@@ -74,3 +74,4 @@ sp-version = { version = "38.0.0", default-features = false }
 substrate-wasm-builder = { version = "25.0.0", default-features = false }
 pallet-certificate = { path = "./pallets/fennel/certificate", default-features = false }
 sp-std = { version = "37.0.0", default-features = false }
+pallet-session = { version = "39.0.0", default-features = false }

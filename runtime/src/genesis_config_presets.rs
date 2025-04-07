@@ -15,13 +15,25 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use crate::{AccountId, BalancesConfig, RuntimeGenesisConfig, SudoConfig};
+use crate::{
+    AccountId, BalancesConfig, RuntimeGenesisConfig, SudoConfig,
+    SessionConfig,
+    opaque::SessionKeys,
+
+};
+
 use alloc::{vec, vec::Vec};
 use serde_json::Value;
 use sp_consensus_aura::sr25519::AuthorityId as AuraId;
 use sp_consensus_grandpa::AuthorityId as GrandpaId;
 use sp_genesis_builder::{self, PresetId};
 use sp_keyring::AccountKeyring;
+use sp_core::ByteArray;
+
+fn aura_to_account_id(aura: &AuraId) -> AccountId {
+    let array: [u8; 32] = aura.to_raw_vec().try_into().unwrap_or_default();
+    AccountId::from(array)
+}
 
 // Returns the genesis config presets populated with given parameters.
 fn testnet_genesis(
@@ -37,6 +49,24 @@ fn testnet_genesis(
 				.map(|k| (k, 1u128 << 60))
 				.collect::<Vec<_>>(),
 		},
+
+                session: SessionConfig {
+                        keys: initial_authorities
+                                .iter()
+                                .map(|(aura, grandpa)| {
+                                        let account_id = aura_to_account_id(aura);
+                                        (
+                                                account_id.clone(), 
+                                                account_id,         
+                                                SessionKeys {      
+                                                        aura: aura.clone(),
+                                                        grandpa: grandpa.clone(),
+                                                }
+                                        )
+                                })
+                                .collect::<Vec<_>>(),
+			non_authority_keys: vec![],
+                },
 		aura: pallet_aura::GenesisConfig {
 			authorities: initial_authorities.iter().map(|x| (x.0.clone())).collect::<Vec<_>>(),
 		},
