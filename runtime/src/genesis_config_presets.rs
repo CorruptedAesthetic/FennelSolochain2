@@ -67,13 +67,8 @@ fn testnet_genesis(
                                 .collect::<Vec<_>>(),
 			non_authority_keys: vec![],
                 },
-		aura: pallet_aura::GenesisConfig {
-			authorities: initial_authorities.iter().map(|x| (x.0.clone())).collect::<Vec<_>>(),
-		},
-		grandpa: pallet_grandpa::GenesisConfig {
-			authorities: initial_authorities.iter().map(|x| (x.1.clone(), 1)).collect::<Vec<_>>(),
-			..Default::default()
-		},
+		aura: Default::default(),
+		grandpa: Default::default(),
 		sudo: SudoConfig { key: Some(root) },
 		..Default::default()
 	};

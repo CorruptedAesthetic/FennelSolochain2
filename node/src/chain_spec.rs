@@ -1,5 +1,15 @@
 use sc_service::ChainType;
-use solochain_template_runtime::WASM_BINARY;
+use solochain_template_runtime::{
+    WASM_BINARY,
+    opaque::SessionKeys,
+};
+use sp_consensus_aura::sr25519::AuthorityId as AuraId;
+use sp_consensus_grandpa::AuthorityId as GrandpaId;
+
+/// Helper function to generate session keys from an authority ID
+pub fn session_keys(aura: AuraId, grandpa: GrandpaId) -> SessionKeys {
+    SessionKeys { aura, grandpa }
+}
 
 /// Specialized `ChainSpec`. This is a specialization of the general Substrate ChainSpec type.
 pub type ChainSpec = sc_service::GenericChainSpec;
