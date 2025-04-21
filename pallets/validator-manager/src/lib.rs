@@ -11,6 +11,13 @@ use frame_support::traits::Get;
 
 pub use pallet::*;
 
+// Add mocks and tests modules
+#[cfg(test)]
+pub mod mock;
+
+#[cfg(test)]
+pub mod tests;
+
 type Session<T> = pallet_session::Pallet<T>;
 
 /// A type used to convert an account ID into a validator ID.
@@ -50,18 +57,28 @@ pub mod pallet {
     #[pallet::generate_deposit(pub(super) fn deposit_event)]
     pub enum Event<T: Config> {
         /// New validators were added to the set.
-        ValidatorsRegistered(Vec<T::ValidatorId>),
-        /// Validators were removed from the set.
-        ValidatorsDeregistered(Vec<T::ValidatorId>),
+        ValidatorsRegistered { validators: Vec<T::ValidatorId> },
+        /// A validator was removed from the set.
+        ValidatorRemoved { validator: T::ValidatorId },
     }
 
-    /// Validators that should be retired.
+    #[pallet::error]
+    pub enum Error<T> {
+        /// The validator is already in the set.
+        ValidatorAlreadyAdded,
+        /// The account is not a validator.
+        NotValidator,
+    }
+
+    /// Validators that should be removed.
     #[pallet::storage]
-    pub(crate) type ValidatorsToRetire<T: Config> =
+    #[pallet::getter(fn validators_to_remove)]
+    pub(crate) type ValidatorsToRemove<T: Config> =
         StorageValue<_, Vec<T::ValidatorId>, ValueQuery>;
 
     /// Validators that should be added.
     #[pallet::storage]
+    #[pallet::getter(fn validators_to_add)]
     pub(crate) type ValidatorsToAdd<T: Config> = StorageValue<_, Vec<T::ValidatorId>, ValueQuery>;
 
     #[pallet::call]
@@ -77,43 +94,62 @@ pub mod pallet {
         ) -> DispatchResult {
             T::PrivilegedOrigin::ensure_origin(origin)?;
 
-            validators.clone().into_iter().for_each(|v| ValidatorsToAdd::<T>::append(v));
+            let mut current_validators_to_add = ValidatorsToAdd::<T>::get();
+            
+            for validator in validators.clone() {
+                // Check if the validator is already in the to_add list
+                ensure!(!current_validators_to_add.contains(&validator), Error::<T>::ValidatorAlreadyAdded);
+                
+                // Add to the queue
+                current_validators_to_add.push(validator);
+            }
+            
+            ValidatorsToAdd::<T>::put(current_validators_to_add);
 
-            Self::deposit_event(Event::ValidatorsRegistered(validators));
+            Self::deposit_event(Event::ValidatorsRegistered { validators });
             Ok(())
         }
 
-        /// Remove validators from the set.
+        /// Remove a validator from the set.
         ///
-        /// The removed validators will be deactivated from current session + 2.
+        /// The removed validator will be deactivated from current session + 2.
         #[pallet::call_index(1)]
         #[pallet::weight({100_000})]
-        pub fn deregister_validators(
+        pub fn remove_validator(
             origin: OriginFor<T>,
-            validators: Vec<T::ValidatorId>,
+            validator: T::ValidatorId,
         ) -> DispatchResult {
             T::PrivilegedOrigin::ensure_origin(origin)?;
+            
+            // Check if this is a known validator
+            let validators = Session::<T>::validators();
+            ensure!(validators.contains(&validator), Error::<T>::NotValidator);
 
-            validators.clone().into_iter().for_each(|v| ValidatorsToRetire::<T>::append(v));
+            // Add to removal queue
+            let mut validators_to_remove = ValidatorsToRemove::<T>::get();
+            validators_to_remove.push(validator.clone());
+            ValidatorsToRemove::<T>::put(validators_to_remove);
 
-            Self::deposit_event(Event::ValidatorsDeregistered(validators));
+            Self::deposit_event(Event::ValidatorRemoved { validator });
             Ok(())
         }
     }
 }
 
 impl<T: Config> pallet_session::SessionManager<T::ValidatorId> for Pallet<T> {
-    fn new_session(new_index: SessionIndex) -> Option<Vec<T::ValidatorId>> {
+    fn new_session(_new_index: SessionIndex) -> Option<Vec<T::ValidatorId>> {
         let mut validators = Session::<T>::validators();
 
         // Apply pending changes
-        ValidatorsToRetire::<T>::take().iter().for_each(|v| {
+        let validators_to_remove = ValidatorsToRemove::<T>::take();
+        validators_to_remove.iter().for_each(|v| {
             if let Some(pos) = validators.iter().position(|r| r == v) {
                 validators.swap_remove(pos);
             }
         });
 
-        ValidatorsToAdd::<T>::take().into_iter().for_each(|v| {
+        let validators_to_add = ValidatorsToAdd::<T>::take();
+        validators_to_add.into_iter().for_each(|v| {
             if !validators.contains(&v) {
                 validators.push(v);
             }
@@ -134,6 +170,13 @@ impl<T: Config> pallet_session::SessionManager<T::ValidatorId> for Pallet<T> {
     fn end_session(_: SessionIndex) {}
 
     fn start_session(_start_index: SessionIndex) {}
+}
+
+#[cfg(test)]
+impl<T: Config> Pallet<T> {
+    pub fn new_session(new_index: SessionIndex) -> Option<Vec<T::ValidatorId>> {
+        <Self as pallet_session::SessionManager<_>>::new_session(new_index)
+    }
 }
 
 impl<T: Config> pallet_session::historical::SessionManager<T::ValidatorId, ()> for Pallet<T> {
