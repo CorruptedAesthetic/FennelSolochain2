@@ -1,4 +1,5 @@
 use fennel_node_runtime::{AccountId, RuntimeGenesisConfig, Signature, WASM_BINARY};
+use fennel_node_runtime::opaque::SessionKeys;
 use sc_service::ChainType;
 use sp_consensus_aura::sr25519::AuthorityId as AuraId;
 use sp_consensus_grandpa::AuthorityId as GrandpaId;
@@ -113,5 +114,6 @@ fn testnet_genesis(
 			// Assign network admin rights.
 			"key": Some(root_key),
 		},
+		// Temporarily removed session and validator-manager configs for testing
 	})
 }

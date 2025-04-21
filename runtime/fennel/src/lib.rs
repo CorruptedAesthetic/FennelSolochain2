@@ -9,7 +9,7 @@ use sp_consensus_aura::sr25519::AuthorityId as AuraId;
 use sp_core::{crypto::KeyTypeId, OpaqueMetadata};
 use sp_runtime::{
 	create_runtime_str, generic, impl_opaque_keys,
-	traits::{BlakeTwo256, Block as BlockT, IdentifyAccount, NumberFor, Verify},
+	traits::{BlakeTwo256, Block as BlockT, IdentifyAccount, NumberFor, Verify, OpaqueKeys},
 	transaction_validity::{TransactionSource, TransactionValidity},
 	ApplyExtrinsicResult, MultiSignature,
 };
@@ -41,9 +41,10 @@ use polkadot_runtime_common::SlowAdjustingFeeUpdate;
 #[cfg(any(feature = "std", test))]
 pub use sp_runtime::BuildStorage;
 pub use sp_runtime::{Perbill, Permill};
+use frame_system::EnsureRoot;
 
 extern crate alloc;
-mod validator_manager;
+pub use pallet_validator_manager;
 
 pub use pallet_certificate;
 pub use pallet_infostratus;
@@ -51,6 +52,9 @@ pub use pallet_identity;
 pub use pallet_trust;
 pub use pallet_keystore;
 pub use pallet_signal;
+
+use pallet_session::ShouldEndSession;
+pub use pallet_session;
 
 /// An index to a block.
 pub type BlockNumber = u32;
@@ -166,6 +170,11 @@ parameter_types! {
 
     pub const InfostratusLockIdentifier: [u8; 8] = *b"infstrts";
     pub const InfostratusLockPrice: u32 = 100;
+
+    pub const MinAuthorities: u32 = 2;
+
+    pub const Period: u32 = 2 * MINUTES;
+    pub const Offset: u32 = 0;
 }
 
 /// The default types are being injected by [`derive_impl`](`frame_support::derive_impl`) from
@@ -308,6 +317,24 @@ impl pallet_infostratus::Config for Runtime {
     type LockPrice = InfostratusLockPrice;
 }
 
+impl pallet_validator_manager::Config for Runtime {
+    type RuntimeEvent = RuntimeEvent;
+    type PrivilegedOrigin = EnsureRoot<AccountId>;
+    type MinAuthorities = MinAuthorities;
+}
+
+impl pallet_session::Config for Runtime {
+    type RuntimeEvent = RuntimeEvent;
+    type ValidatorId = <Self as frame_system::Config>::AccountId;
+    type ValidatorIdOf = pallet_validator_manager::ValidatorOf<Self>;
+    type ShouldEndSession = pallet_session::PeriodicSessions<Period, Offset>;
+    type NextSessionRotation = pallet_session::PeriodicSessions<Period, Offset>;
+    type SessionManager = ValidatorManager;
+    type SessionHandler = <opaque::SessionKeys as OpaqueKeys>::KeyTypeIdProviders;
+    type Keys = opaque::SessionKeys;
+    type WeightInfo = ();
+}
+
 // Create the runtime by composing the FRAME pallets that were previously configured.
 #[frame_support::runtime]
 mod runtime {
@@ -363,6 +390,12 @@ mod runtime {
 
 	#[runtime::pallet_index(12)]
 	pub type Infostratus = pallet_infostratus;
+
+	#[runtime::pallet_index(13)]
+	pub type Session = pallet_session;
+
+	#[runtime::pallet_index(14)]
+	pub type ValidatorManager = pallet_validator_manager;
 }
 
 /// The address format for describing accounts.
