@@ -9,7 +9,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
     apt-get install clang libclang-dev libclang1 llvm llvm-dev clang-tools -y && \
     apt-get upgrade -y
 
-RUN cargo install cargo-chef
+RUN cargo install cargo-chef --locked
 
 FROM base as planner
 COPY . .
